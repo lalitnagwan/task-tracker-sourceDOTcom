@@ -22,7 +22,7 @@ export default function App() {
         <ImportExport />
       </main>
       <footer>
-        <small>© 2025 Task Tracker SourceDOTcom | <a href="https://github.com/your-username/task-tracker-redux">GitHub Repo - Lalit Nagwan</a></small>
+        <small>© 2025 Task Tracker SourceDOTcom | <a href="https://github.com/lalitnagwan/task-tracker-sourceDOTcom">GitHub Repo - Lalit Nagwan</a></small>
       </footer>
     </div>
   );
