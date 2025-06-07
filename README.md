@@ -56,7 +56,7 @@ This application lets users create, update, delete, and organize tasks, supporti
 
 ```bash
 git clone https://github.com/lalitnagwan/task-tracker-sourceDOTcom.git
-cd task-tracker-redux
+cd task-tracker-sourceDOTcom
 npm install
 ```
 
