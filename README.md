@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# ReactJS Task Tracker Application with Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive Task Tracker application built with ReactJS and Redux, allowing users to efficiently manage their daily tasks.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+This application lets users create, update, delete, and organize tasks, supporting filtering, searching, categorization, priorities, and persistent storage. It also features drag-and-drop task reordering, undo/redo, data export/import, accessibility, and a statistics dashboard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+### Core Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Task Management**: Create, read, update, delete tasks
+- **Task Status**: Toggle between completed/active
+- **Filtering**: Filter by status (all/completed/active)
+- **Search**: Search tasks by title or description
+- **Categories**: Organize tasks by tags/categories
+- **Priority Levels**: Assign & color-code priorities
 
-### `npm run build`
+### Technical Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend Framework**: ReactJS (functional components & hooks)
+- **State Management**: Redux & Redux Toolkit
+- **Middleware**: Redux Thunk (for async ops)
+- **Persistence**: LocalStorage (or IndexedDB)
+- **Responsive Design**: Mobile-first
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### User Experience
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Intuitive UI**: Clean, user-friendly interface
+- **Task Organization**: Drag-and-drop reordering
+- **Visual Indicators**: Color-coded priorities/status
 
-### `npm run eject`
+### Bonus Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Data Visualization**: Task completion statistics dashboard
+- **Undo/Redo**: History for actions
+- **Collaboration**: Share tasks/lists (mock)
+- **Export/Import**: JSON import/export
+- **Accessibility**: Keyboard navigation, screen reader support
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- Node.js >= 16.x
+- npm or yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/your-username/task-tracker-redux.git
+cd task-tracker-redux
+npm install
+```
 
-### Code Splitting
+### Running Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Build for Production
 
-### Making a Progressive Web App
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Test Coverage
 
-### Advanced Configuration
+```bash
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- `/src`
+  - `/components` – React components
+  - `/features` – Redux slices and features
+  - `/store` – Redux store setup
+  - `/utils` – Utility functions
+  - `/assets` – Icons, images, styles
+  - `/hooks` – Custom React hooks
+  - `/__tests__` – Unit & integration tests
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment
+
+- Deploy on Netlify/Vercel or your preferred hosting platform.
+
+---
+
+## Documentation
+
+- Well-documented source code with comments
+- See `/docs` for setup and feature instructions
+
+---
+
+## License
+
+MIT
+
+---
+
+_This project fulfills all requirements and features as per the assignment given to me._
