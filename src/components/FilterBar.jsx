@@ -23,7 +23,7 @@ export default function FilterBar() {
   return (
     <div className="filter-bar">
       <label>
-        Status:
+        Status :&nbsp;
         <select
           value={filter}
           onChange={(e) => dispatch(setFilter(e.target.value))}
@@ -34,7 +34,7 @@ export default function FilterBar() {
         </select>
       </label>
       <label>
-        Category:
+        Category :&nbsp;
         <select
           value={selectedCategory}
           onChange={(e) => dispatch(setCategory(e.target.value))}
@@ -48,7 +48,7 @@ export default function FilterBar() {
         </select>
       </label>
       <label>
-        Priority:
+        Priority :&nbsp;
         <select
           value={selectedPriority}
           onChange={(e) => dispatch(setPriority(e.target.value))}
